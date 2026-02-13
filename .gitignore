@@ -1,0 +1,23 @@
+# --- Go Specifics ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+.env
+
+# --- GoLand / IntelliJ IDEA ---
+.idea/
+# If you want to SHARE certain settings (like Run Configs),
+# uncomment the lines below to keep them while ignoring the rest:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# Specifically ignore GoLand's user-specific workspace file
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
