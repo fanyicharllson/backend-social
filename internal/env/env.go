@@ -12,6 +12,9 @@ func GetString(key, fallback string) string {
 	}
 	return val
 }
+
+// GetInt retrieves an environment variable and converts it to an int.
+// If the variable doesn't exist or can't be converted to an int, it returns the fallback value.
 func GetInt(key string, fallback int) int {
 	val, ok := os.LookupEnv(key)
 	if !ok {
