@@ -27,6 +27,7 @@ type dbConfig struct {
 	maxIdleTime  string
 }
 
+
 func (app *application) mount() http.Handler {
 	r := chi.NewRouter()
 	r.Use(middleware.Recoverer)
